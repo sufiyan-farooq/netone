@@ -1,0 +1,438 @@
+@font-face {
+    font-family: rubik;
+    src: url(fonts/Rubik-VariableFont_wght.ttf);
+}
+.bg-body-tertiary{
+ padding: 20px;
+ background-color: #fff !important;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.right-picture img{
+    width: 520px;
+    margin-top: 40px;
+}
+
+.content{
+    margin-top: 80px;
+}
+.content h1{
+    font-family:rubik;
+    font-size: 52px;
+}
+#net{
+font-weight: 400;
+}
+#span{
+    font-weight: 600;
+}
+.content p{
+    font-family: rubik;
+  color: #4F5665;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.content span{
+    font-weight: 550;
+}
+.content button{
+    border: none;
+
+    background-color:  #3878FF;
+    color: #fff;
+    font-family: rubik;
+    padding: 15px;
+    width: 45%;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 20px;
+    box-shadow:  0px 12px 20px -8px  #3878FF;
+    
+}
+.content button:hover{
+    background-color: #1e62f6;
+
+}
+.responsive-box{
+ margin-top: 150px;
+}
+.perfomance{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+    width: 100%;
+    border-radius: 15px;
+
+}
+.circle{
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #e8edf7;
+margin-top: 5px;
+    padding: 6px;
+    position: relative;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.circle i{
+    color: #3878FF;
+    font-size: 18px;
+}
+.user{
+    display: flex;
+    gap: 30px;
+   
+}
+.user-1{
+    display: flex;
+    gap: 30px;
+    border-right: 2px solid #cfd6e6;
+    border-left: 2px solid #cfd6e6;
+    padding-right: 120px;
+    padding-left: 120px;
+
+
+}
+.user-2{
+    display: flex;
+    gap: 30px;
+}
+.text h3{
+    font-family: rubik;
+    font-weight: 700;
+    font-size: 30px;
+}
+.text p{
+    color: #4F5665;
+    font-family: rubik;
+}
+
+.service{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.service-img img{
+    width: 450px;
+}
+.tick{
+    display: flex;
+    gap: 10px;
+}
+.tick-box{
+    width:27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #1e62f6;
+    padding: 6px;
+    position: relative;
+    margin-top: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tick-box i{
+    color: #fff;
+}
+.tick-box-text p{
+    font-family: rubik;
+    color: #4F5665;
+    font-size: 15px !important;
+}
+.service-content h1{
+    font-family: rubik;
+    font-size: 35px;
+    font-family: 500;
+
+}
+
+
+.service-content p{
+    font-family: rubik;
+    color: #4F5665;
+    font-size: 17px;
+    margin-top: 15px;
+
+}
+.plan-head h4{
+    font-family: rubik;
+    margin-top: 35px;
+    
+}
+.plan-points{
+    margin-top: 40px;
+}
+.plan-points p{
+    margin-top: 30px;
+    font-family: rubik;
+    color: #4F5665;
+
+}
+.plan-amount h4{
+    font-family: rubik;
+    margin-top: 210px;
+    font-size: 30px;
+}
+.plan-amount-1 h4{
+    font-family: rubik;
+    margin-top: 160px;
+    font-size: 30px;
+}
+.plan-amount-2 h4{
+    font-family: rubik;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.plan-button button{
+    border: 2px solid #3878FF;
+    background-color: transparent;
+    width: 50%;
+    font-family: rubik;
+    color: #3878FF;
+    font-size: 20px;
+    font-weight: 650;
+    border-radius: 28px;
+    padding: 8px;
+    margin-top: 20px;
+}
+.plan-button button:hover{
+background-color: #3878FF;
+color: #fff;
+box-shadow:  0px 12px 20px -8px  #3878FF;
+
+}
+.plan-content h1{
+ font-family: rubik;
+ font-size: 50px;
+ text-align: center;
+}
+.plan-content p{
+    color: #4F5665;
+    font-family: rubik;
+    font-size: 17px;
+    margin-top: 8px;
+    text-align: center;
+}
+.plan{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(248, 250, 250) 78%);
+    width: 100%;
+    padding: 80px;
+    margin-top: 140px;
+}
+.plan-box{
+    border: 2px solid #e0dfdf;
+    width: 90%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 90%;
+}
+
+.network-content h1{
+font-size: 40px;
+text-align: center;
+font-family: rubik;
+}
+.network-content p{
+    font-family: rubik;
+    text-align: center;
+    color: #4F5665;
+    margin-top:20px;
+}
+.network{
+    padding: 20px;
+    margin-top: 40px;
+}
+#one{
+    font-weight: 650;
+
+}
+.network-img img{
+    width: 100%;
+    margin-top: 120px;
+}
+.network-content  span{
+    font-weight: 550;
+}
+.brand-logo{
+margin-top: 50px;
+}
+
+@media screen and (max-width:1024px) {
+    .hero-section{
+        display: flex;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .right-picture img{
+        width: 410px;
+    }
+    .content h1{
+        font-size: 40px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:1000px){
+    .user-1{
+        padding-right: 70px;
+        padding-left: 50px;
+    }
+ 
+}
+
+@media screen and (max-width:775px){
+    .user-1{
+     border: none;
+     padding: 0px;
+     gap: 20px;
+
+    }
+ .user{
+    gap: 20px;
+ }
+ .user-2{
+    gap: 20px;
+ }
+ .service-content{
+    margin-top: 70px;
+ }
+
+ 
+
+ .circle{
+    margin: 0px;
+ }
+    .perfomance{
+        justify-content: center;
+        gap: 30px;
+    }
+    .text h3{
+        font-size: 22px;
+    }
+ 
+}
+
+@media screen and (max-width:600px) {
+    .content h1{
+        font-size: 42px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+    .right-picture img{
+        width: 490px;
+    }
+    .service-img img{
+        width: 400px;
+    }
+    .plan-content h1{
+        font-size: 40px;
+    }
+    .plan-content p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:540px) {
+    .perfomance{
+        display: block ;
+        width: 60%;
+        padding: 30px;
+
+        
+    
+    }
+    .network-content p{
+        font-size: 11px;
+    }
+  
+    .responsive-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .network-content h1{
+        font-size: 32px;
+    }
+
+    
+}
+@media screen and  (max-width:490px) {
+    .content h1{
+        font-size: 36px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .right-picture img{
+        width: 430px;
+    }
+    .service-content p{
+        font-size: 14px;
+    }
+    .service-content h1{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:430px) {
+    .content h1{
+        font-size: 32px;
+    }
+    .content p{
+        font-size: 11px;
+    }
+    .content button{
+        padding: 13px;
+        font-size: 15px;
+    }
+    .right-picture img{
+        width: 370px;
+        margin-top: 60px;
+    }
+    .service-img img{
+        width: 310px;
+    }
+    .service-content h1{
+        font-size: 29px;
+    }
+    .service-content p{
+        font-size: 11px;
+    }
+    .tick-box-text p{
+        font-size: 12px !important;
+        margin-top: 18px !important;
+    }
+    .tick-box{
+        width: 20px;
+        height: 20px;
+
+    }
+    .tick-box i{
+        font-size: 11px;
+    }
+    .plan-box{
+        width: 100%;
+    }
+    .plan-box p{
+        font-size: 13px;
+    }
+}
